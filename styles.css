@@ -162,7 +162,7 @@ section h2 {
   }
 
 .project-card a:active {
-  color: red;
+  color: rgb(28, 234, 165);
 }
 
 /* Skills */
@@ -190,6 +190,14 @@ section h2 {
   display: inline-block;
   margin: 0.5rem 1rem;
   color: #0ff;
+}
+
+.contact-links a:hover {
+  transform: scale(1.2);
+}
+
+.contact-links a:active {
+  color: rgb(28, 234, 165);
 }
 
 /* Visibility animation */
