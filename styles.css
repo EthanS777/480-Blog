@@ -17,9 +17,10 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0rem;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(241, 239, 239, 0.797);
   z-index: 10;
   backdrop-filter: blur(10px);
+  border-bottom: 3px solid white;
 }
 
 .navbar .nav-links {
@@ -34,24 +35,28 @@ html {
 .navbar .nav-links a,
 .navbar .logo a {
   margin-left: 2rem;
-  color: white;
+  color: rgb(47, 47, 47);
   text-decoration: none;
   font-weight: bold;
 }
 
-.navbar .nav-links a:hover {
-  color: #0ff;
+.navbar .nav-links a:hover,
+.navbar .logo a:hover {
+  color: rgb(7, 114, 114);
   cursor: pointer;
 }
 
 #about {
   background: linear-gradient(135deg, #1b5895, #1d7676);
   color: #fff;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 }
 
 #projects {
   background: linear-gradient(135deg, #142571, #082342);
   color: #fff;
+  border-top: 2px solid white;
 }
 
 #contact {
@@ -136,6 +141,7 @@ section h2 {
   background: rgba(255, 255, 255, 0.21);
   padding: 1.5rem;
   border-radius: 10px;
+  border: 1px solid white;
   transition: transform 0.3s;
 }
 
@@ -172,6 +178,11 @@ section h2 {
   background: rgba(255, 255, 255, 0.1);
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  border: 2px solid white;
+}
+
+.skills span:hover {
+  background: rgba(255, 255, 255, 0.6);
 }
 
 /* Contact links */
