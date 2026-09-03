@@ -26,6 +26,7 @@ html {
 .navbar .nav-links {
   padding-top: 20px;
   padding-right: 1rem;
+   font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .navbar .logo {
